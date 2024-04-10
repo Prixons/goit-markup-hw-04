@@ -103,7 +103,7 @@ img {
     display: block;
 }
 
-.header-logo-link .current {
+.header-logo-link.current {
     color: #404bbf;
 }
 
@@ -115,7 +115,7 @@ img {
     color: #404bbf;
 }
 
-.header-logo-link .current::after {
+.header-logo-link.current::after {
     content:"";
     width: 100%;
     position: absolute;
